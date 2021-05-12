@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
+        media="screen" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="signup-container">
+        <div class="left-container">
+            <h1>
+                <i class="fa fa-paw"></i>
+                VACFORM
+            </h1>
+            <div class="puppy">
+                <img src="images/human-dog-relaation-2042816-1729785.png" />
+            </div>
+        </div>
+        <div class="right-container">
+            <form name="vaccination-form" method="POST" data-netlify="true">
+                <header>
+                    <h1>¡Hora de la Vacunación! ¡Aseguremonos que tu mascota esté bien protegida!</h1>
+                    <div class="set">
+                        <div class="owners-name">
+                            <label for="pets-name">Nombre del Dueño</label>
+                            <input id="pets-name" placeholder="Owner's Name" type="text" name="owners-name"></input>
+                        </div>
+                        <div class="pets-name">
+                            <label for="pets-color">Teléfono</label>
+                            <input id="phone" placeholder="Phone Number" type="text" name="phone-number"></input>
+                        </div>
+                    </div>
+                    <div class="set">
+                        <div class="pets-breed">
+                            <label for="pets-breed">Dirección</label>
+                            <input id="address" placeholder="Address" type="text" name="address"></input>
+                        </div>
+                        <div class="pets-birthday">
+                            <label for="city">Ciudad</label>
+                            <input id="city" placeholder="City" type="text" name="city"></input>
+                        </div>
+                    </div>
+                    <div class="set">
+                        <div class="pets-breed">
+                            <label for="zipcode">Código Postal</label>
+                            <input id="zipcode" placeholder="Zipcode" type="text" name="zipcode"></input>
+                        </div>
+                        <div class="pets-birthday">
+                            <label for="email">Correo Electronico</label>
+                            <input id="email" placeholder="Email" type="text" name="email"></input>
+                        </div>
+                    </div>
+                    <div class="set">
+                        <div class="pets-breed">
+                            <label for="pets-name">Nombre de Mascota</label>
+                            <input id="pets-name" placeholder="Pet's Name" type="text" name="pets-name"></input>
+                        </div>
+                        <div class="pets-birthday">
+                            <label for="pets-birthday">Fecha de Nacimiento</label>
+                            <input id="pets-birthday" placeholder="MM/DD/YYYY" type="text" name="birthday"></input>
+                        </div>
+                    </div>
+                    <div class="set">
+                        <div class="pets-breed">
+                            <label for="pets-breed">Raza</label>
+                            <input id="pets-breed" placeholder="Pet's breed" type="text" name="breed"></input>
+                        </div>
+                        <div class="pets-birthday">
+                            <label for="pets-color">Color</label>
+                            <input id="pets-color" placeholder="Pet's Color" type="text" name="color"></input>
+                        </div>
+                    </div>
+
+                    <div class="set">
+                        <div class="pets-gender">
+                            <label for="pet-gender-female">Gender</label>
+                            <div class="radio-container">
+                                <input id="pet-gender-female" name="pet-gender" type="radio" value="female" name="gender"></input>
+                                <label for="pet-gender-female">Female</label>
+                                <input id="pet-gender-male" name="pet-gender" type="radio" value="male" name="gender"></input>
+                                <label for="pet-gender-male">Male</label>
+                            </div>
+                        </div>
+                        <div class="pets-spayed-neutered">
+                            <label for="pet-spayed">Spayed or Neutered</label>
+                            <div class="radio-container">
+                                <input id="pet-spayed" name="spayed-neutered" type="radio" value="yes" name="spayedornot"></input>
+                                <label for="pet-spayed">Yes</label>
+                                <input id="pet-neutered" name="spayed-neutered" type="radio" value="no" name="spayedornot"></input>
+                                <label for="pet-neutered">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pets-weight">
+                        <label for="pet-weight-0-25">Weight</label>
+                        <div class="radio-container">
+                            <input id="pet-weight-0-25" name="pet-weight" type="radio" value="0-25" name="weight"></input>
+                            <label for="pet-weight-0-25">0-25 lbs</label>
+                            <input id="pet-weight-25-50" name="pet-weight" type="radio" value="25-50" name="weight"></input>
+                            <label for="pet-weight-25-50">25-50 lbs</label>
+                            <input id="pet-weight-50-100" name="pet-weight" type="radio" value="50-100" name="weight"></input>
+                            <label for="pet-weight-50-100">50-100 lbs</label>
+                            <input id="pet-weight-100-plus" name="pet-weight" type="radio" value="100+" name="weight"></input>
+                            <label for="pet-weight-100-plus">100+ lbs</label>
+                        </div>
+                    </div>
+
+                </header>
+                <footer>
+                    <div class="set footer-btn">
+                        <button id="next" type="submit">Submit</button>
+                    </div>
+                </footer>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
