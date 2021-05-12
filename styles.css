@@ -189,6 +189,7 @@ body {
   background: #807182;
   border: 1px solid transparent;
   color: #fff;
+  width: 100% !important;
 }
 
 .right-container footer #next:hover {
@@ -231,10 +232,6 @@ body {
 .radio-container input[type="radio"]:checked + label {
   background: #F7B1AB;
   border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.footer-btn {
-  justify-self: flex-end;
 }
 
 @media (max-width: 480px) {
