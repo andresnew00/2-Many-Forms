@@ -261,6 +261,10 @@ body {
     display: -ms-flexbox;
     display: flex;
     text-align: center;
+    font-size: .7em;
+  }
+  .right-container {
+    width: auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */
