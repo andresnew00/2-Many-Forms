@@ -218,3 +218,33 @@ body {
 .footer-btn {
     justify-self: flex-end;
 }
+
+@media (max-width: 480px) {
+    body {
+    font-size: 1.1em;
+    }
+
+    .left-container {
+      display: none;
+    }
+
+    .set {
+      flex-direction: column;
+    }
+
+    .right-container label, .right-container input, .right-container .pets-photo {
+      width: 100%;
+      margin-bottom: .2em;
+      margin-top: .2em;
+    }
+
+    .pets-name {
+      margin-bottom: .2em;
+      margin-top: .2em;
+    }
+
+    .radio-container {
+      display: flex;
+      text-align: center;
+    }
+}
